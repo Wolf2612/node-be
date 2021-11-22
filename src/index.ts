@@ -7,5 +7,5 @@ app.listen(process.env.PORT, () => {
 });
 
 app.get("/", (req, res) => {
-  res.json({ username: "user1", password: "user12345" });
+  res.json({ username: "user1", password: "Pass is 123" });
 });
